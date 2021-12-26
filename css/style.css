@@ -412,14 +412,14 @@ body{
     font-weight: bold;
     font-size: 20px;
     line-height: 130%;
-    color: #FFFFFF;
+    color: #fff;
     margin-bottom: 16px;
 }
 
 .copyright-txt{
     font-size: 16px;
     line-height: 150%;
-    color: #FFFFFF;
+    color: #fff;
 }
 
 .footer-nav{
@@ -430,7 +430,7 @@ body{
     font-weight: bold;
     font-size: 20px;
     line-height: 130%;
-    color: #FFFFFF;
+    color: #fff;
     margin-bottom: 16px;
 }
 
@@ -446,12 +446,12 @@ body{
 .page-link{
     font-size: 16px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #fff;
     text-decoration: none;
 }
 
 .page-link:hover{
-    color: #00BAFC;
+    color: #00bafc;
 }
 
 .page-link:active{
