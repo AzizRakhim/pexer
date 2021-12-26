@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <title>Document</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="css/col.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <section id="hero">
+        <h1 class="header-none">
+            Pexer
+        </h1>
         <header class="site-header">
             <div class="container">
                 <div class="row middle">
@@ -29,7 +30,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="item-link" href="#">
+                                <a class="item-link" href="#services">
                                     Xizmatlar
                                 </a>
                             </li>
@@ -61,6 +62,10 @@
                 </div>
             </div>
         </header>
+
+        <!-- Header end -->
+        <!-- Hero start -->
+
         <div class="container">
             <div class="hero-intro row middle">
                 <div class="hero-info">
@@ -77,9 +82,9 @@
                         </a>
                     </div>
                 </div>
-                <div class="hero-imgs">
-                    <a target="_blank" href="https://youtu.be/6_pru8U2RmM">
-                        <img class="hero-img" src="images/youtube.png" alt="youtube">
+                <div class="hero-video">
+                    <a class="youtube-video" target="_blank" href="https://youtu.be/6_pru8U2RmM">
+                        <img class="hero-img" src="images/youtube.png" alt="youtube" width="458" height="258">
                     </a>
                 </div>
             </div>
@@ -150,12 +155,12 @@
                 <div class="btns">
                     <ul class="btns-list row center">
                         <li class="btns-item">
-                            <a class="btns-link" href="#">
+                            <a class="btns-link" target="_blank" href="#">
                                 Buyurtma berish
                             </a>
                         </li>
                         <li class="btns-item">
-                            <a class="btns-link" href="#">
+                            <a class="btns-link" target="_blank" href="#">
                                 Xizmatlar sahifasiga o’tish
                             </a>
                         </li>
@@ -172,8 +177,8 @@
                 <p class="text work-text center">
                     Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget <br> sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar
                 </p>
-                <div class="reverse-div center">
-                    <div class="step row middle">
+                <ul class="reverse-div">
+                    <li class="step row middle">
                         <div class="div-img">
                             <img src="images/step-illlustration.svg" alt="step-illlustration" width="300" height="278">
                         </div>
@@ -185,8 +190,8 @@
                                 Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis
                             </p>
                         </div>
-                    </div>
-                    <div class="step row middle">
+                    </li>
+                    <li class="step row middle">
                         <div class="div-img">
                             <img src="images/step-illlustration-2.svg" alt="step-illlustration" width="300" height="224">
                         </div>
@@ -198,48 +203,48 @@
                                 t nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis
                             </p>
                         </div>
-                        <div class="step row middle">
-                            <div class="div-img">
-                                <img src="images/step-illustration-3.svg" alt="step-illlustration" width="300" height="259">
-                            </div>
-                            <div class="div-txt">
-                                <h4 class="div-title">
-                                    Loyiha uchun vaqt belgilaymiz
-                                </h4>
-                                <p class="text">
-                                    t nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis
-                                </p>
-                            </div>
+                    </li>
+                    <li class="step row middle">
+                        <div class="div-img">
+                            <img src="images/step-illustration-3.svg" alt="step-illlustration" width="300" height="259">
                         </div>
-                        <div class="step row middle">
-                            <div class="div-img">
-                                <img src="images/step-illustration-4.svg" alt="step-illlustration" width="300" height="171">
-                            </div>
-                            <div class="div-txt">
-                                <h4 class="div-title">
-                                    A’lo sifat bilan bajarib topshiramiz
-                                </h4>
-                                <p class="text">
-                                    t nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis
-                                </p>
-                            </div>
+                        <div class="div-txt">
+                            <h4 class="div-title">
+                                Loyiha uchun vaqt belgilaymiz
+                            </h4>
+                            <p class="text">
+                                t nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis
+                            </p>
                         </div>
-                        <div class="step row middle">
-                            <div class="div-img">
-                                <img src="images/step-illustration-5.svg" alt="step-illlustration" width="300" height="278">
-                            </div>
-                            <div class="div-txt">
-                                <h4 class="div-title">
-                                    Qo’llab-quvvatlab boramiz
-                                </h4>
-                                <p class="text">
-                                    t nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis
-                                </p>
-                            </div>
+                    </li>
+                    <li class="step row middle">
+                        <div class="div-img">
+                            <img src="images/step-illustration-4.svg" alt="step-illlustration" width="300" height="171">
                         </div>
-                    </div>
-                </div>
-                <div class="center">
+                        <div class="div-txt">
+                            <h4 class="div-title">
+                                A’lo sifat bilan bajarib topshiramiz
+                            </h4>
+                            <p class="text">
+                                t nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis
+                            </p>
+                        </div>
+                    </li>
+                    <li class="step row middle">
+                        <div class="div-img">
+                            <img src="images/step-illustration-5.svg" alt="step-illlustration" width="300" height="278">
+                        </div>
+                        <div class="div-txt">
+                            <h4 class="div-title">
+                                Qo’llab-quvvatlab boramiz
+                            </h4>
+                            <p class="text">
+                                t nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="work-btn center">
                     <a class="btns-link" href="#">
                         Buyurtma berish
                     </a>
@@ -248,18 +253,113 @@
         </section>
 
         <section id="book">
-            <div class="contanier">
-                <h3 class="title center">
+            <div class="container">
+                <h3 class="title boook-title center">
                     Buyurtma berish
                 </h3>
-                <p class="text center">
+                <p class="text book-text center">
                     Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget <br> sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar
                 </p>
-                <form action="https://echo.htmlacademy.ru">
-                    <input type="text" maxlength="30" minlength="2" name="name" placeholder="">
+                <form class="form-group" action="https://echo.htmlacademy.ru">
+                    <input class="input-info" type="text" maxlength="30" minlength="2" name="name" placeholder="Ismingiz" required>
+                    <input class="input-info" type="tel" name="phone" placeholder="Telefon raqamingiz" required>
+                    <select class="input-info" name="services" id="input-services">
+                        <option value="website">
+                            Vebsayt tuzish
+                        </option>
+                        <option value="telegram">
+                            Telegram bot
+                        </option>
+                        <option value="smm">
+                            SMM
+                        </option>
+                        <option value="grafik">
+                            Grafik dizayn
+                        </option>
+                        <option value="crm">
+                            CRM tizimlar
+                        </option>
+                    </select>
+                    <button class="btns-link" type="submit">
+                        Buyurtma berish
+                    </button>
                 </form>
             </div>
         </section>
     </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="siste-footer-info row">
+                <div class="footer-intro">
+                    <h4 class="copyright">
+                        Copyright 2020
+                    </h4>
+                    <p class="copyright-txt">
+                        Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar tincidunt.
+                    </p>
+                </div>
+                <nav class="footer-nav">
+                    <h4 class="list-title">
+                        Sayt sahifalari
+                    </h4>
+                    <ul class="footer-list">
+                        <li class="page-item">
+                            <a class="page-link" href="#">
+                                Bosh sahifa
+                            </a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#services">
+                                Xizmatlar
+                            </a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">
+                                Portfolio
+                            </a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">
+                                Jamoa
+                            </a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">
+                                Jamoa
+                            </a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">
+                                Kontaktlar
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="internet">
+                    <h4 class="list-title">
+                        Biz internetda
+                    </h4>
+                    <ul class="social-list">
+                        <li class="page-item ">
+                            <a class="page-link row middle" target="_blank" href="#">
+                                Telegram
+                            </a>  
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link row middle" target="_blank" href="#">
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link row middle" target="_blank" href="#">
+                                Instagram
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
